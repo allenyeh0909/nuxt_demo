@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	import Logo from '~/components/Logo.vue'
+	import Logo from '@/components/Logo.vue'
 
 	export default {
 		components: {
@@ -15,7 +15,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.container {
 		margin: 0 auto;
 		min-height: 100vh;

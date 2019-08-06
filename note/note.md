@@ -52,3 +52,10 @@ router: {
   ]
 }
 ```
+
+## layout 使用
+```
+1.在layouts目录下面在新建一个index.vue,引用这个上面新建的组件headernav
+2.在pages中的index.vue中加入layout(context){return 'index'},就引入布局
+```
+![layout](../note/layout.png)

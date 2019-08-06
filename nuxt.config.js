@@ -13,7 +13,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: []
   },
   /*
   ** Customize the progress-bar color
@@ -26,12 +27,15 @@ module.exports = {
     'element-ui/lib/theme-chalk/index.css',
     {src:'@/assets/css/reset.css'},
     // {src:'~assets/css/reset.css'},
+    // https://www.jianshu.com/p/d9289ab2e6b2
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+    '@/plugins/route',
+    // { src: '@/plugins/route', ssr: true}
   ],
   /*
   ** Nuxt.js dev-modules

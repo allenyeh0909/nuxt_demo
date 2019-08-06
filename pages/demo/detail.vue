@@ -1,7 +1,7 @@
 <template>
     <div>
         <button @click="$router.back(-1)">返回</button>
-        <p>shop detail</p>
+        <h2>demo detail</h2>
     </div>
 </template>
 
@@ -13,5 +13,8 @@
         },
         methods: {
         },
+        layout(ctx) {
+            return 'home'
+        }
     }
 </script>
