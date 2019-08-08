@@ -21,7 +21,11 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
+## demo
 [官方demo](https://github.com/nuxt/nuxt.js/tree/dev/examples)
+
+## 笔记
+[笔记](https://github.com/Allenye007/nuxt_demo/blob/master/note/note.md)
 
 
 ## 目录结构
