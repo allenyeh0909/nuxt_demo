@@ -11,10 +11,10 @@
     </div>
 </template>
 <script>
-    import header from '@/components/head'
+    import headerNav from '@/components/head'
     export default {
         components: {
-            headerNav:header
+            headerNav:headerNav
         }
     }
 </script>

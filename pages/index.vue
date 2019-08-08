@@ -1,17 +1,22 @@
 <template>
 	<div class="container">
 		<logo />
-		<nuxt-link to="/demo">demo</nuxt-link>
+		<h1>
+			<nuxt-link to="/demo">go demo</nuxt-link>
+		</h1>
 	</div>
 </template>
 
 <script>
 	import Logo from '@/components/Logo.vue'
-
 	export default {
+		middleware: 'authenticated',
 		components: {
 			Logo
-		}
+		},
+		methods: {
+
+		},
 	}
 </script>
 

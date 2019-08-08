@@ -1,17 +1,31 @@
 <template>
 	<div>
 		<el-container>
-			<el-header>Header</el-header>
+			<el-header>
+				<header-nav></header-nav>
+			</el-header>
 			<el-container>
-				<el-aside width="200px">Aside</el-aside>
+				<el-aside width="160px">
+					<side-bar></side-bar>
+				</el-aside>
 				<el-main>
 					<nuxt />
 				</el-main>
 			</el-container>
 		</el-container>
-
 	</div>
 </template>
+
+<script>
+	import headerNav from '@/components/head'
+	import sideBar from '@/components/side-bar'
+	export default {
+		components: {
+			headerNav,
+			sideBar,
+		}
+	}
+</script>
 
 <style scoped>
 	.el-header,
@@ -23,7 +37,7 @@
 	}
 
 	.el-aside {
-		background-color: #D3DCE6;
+		background-color: #f1f1f1;
 		color: #333;
 		text-align: center;
 		line-height: 200px;
